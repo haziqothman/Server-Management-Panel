@@ -1,0 +1,14 @@
+{
+    "name": "runcloud/assessment",
+    "description": "RunCloud Server Management Assessment",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "RunCloud\\": "src/"
+        }
+    },
+    "require": {}
+    
+}
+
+
