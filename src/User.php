@@ -2,6 +2,7 @@
 namespace RunCloud;
 
 use RunCloud\Plans\PlanInterface;
+use RunCloud\Utilities\TablePrinter; 
 
 class User
 {
@@ -36,6 +37,10 @@ class User
 
         $this->connectedServers[] = $server;
         echo "Successfully connected {$server->name}\n";
+        $table = new TablePrinter();
+        $table->setHeaders(['User name', 'Current plan', 'Connected server']);
+        $table->addRow([$this->name, $this->currentPlan->getName(), $server->name]);
+        $table->print();
     }
 
     public function getCurrentPlanName(): string {

@@ -7,10 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'RunCloud\\Plans\\BasicPlan' => $baseDir . '/src/Plans/BasicPlan.php',
-    'RunCloud\\Plans\\BusinessPlan' => $baseDir . '/src/Plans/BusinessPlan.php',
-    'RunCloud\\Plans\\PlanInterface' => $baseDir . '/src/Plans/PlanInterface.php',
-    'RunCloud\\Plans\\ProPlan' => $baseDir . '/src/Plans/ProPlan.php',
-    'RunCloud\\Server' => $baseDir . '/src/Server.php',
-    'RunCloud\\User' => $baseDir . '/src/User.php',
 );

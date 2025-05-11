@@ -22,12 +22,6 @@ class ComposerStaticInite4880a8dbfbf273b0e09dc2ab5f03048
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'RunCloud\\Plans\\BasicPlan' => __DIR__ . '/../..' . '/src/Plans/BasicPlan.php',
-        'RunCloud\\Plans\\BusinessPlan' => __DIR__ . '/../..' . '/src/Plans/BusinessPlan.php',
-        'RunCloud\\Plans\\PlanInterface' => __DIR__ . '/../..' . '/src/Plans/PlanInterface.php',
-        'RunCloud\\Plans\\ProPlan' => __DIR__ . '/../..' . '/src/Plans/ProPlan.php',
-        'RunCloud\\Server' => __DIR__ . '/../..' . '/src/Server.php',
-        'RunCloud\\User' => __DIR__ . '/../..' . '/src/User.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
